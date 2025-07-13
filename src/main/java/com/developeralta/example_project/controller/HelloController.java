@@ -18,7 +18,7 @@ public class HelloController {
     @GetMapping
     @Operation(summary = "Mostrar mensaje de bienvenida", description = "Retorna un mensaje de bienvenida")
     public List<Item> list() {
-        return "Hola mundo by developeralta e Integración continua...";
+        return "Hola mundo by developeralta e Integración continua, build automático...";
     }
 
 }
